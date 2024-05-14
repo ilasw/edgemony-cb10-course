@@ -1,3 +1,2 @@
-# edgemony-eb10-course
+# Edgemony CB10 - Exercises
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/ilasw/edgemony-eb10-course)
