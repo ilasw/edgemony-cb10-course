@@ -155,3 +155,33 @@ switch(test){
 // } else{
 //     console.log('....');
 // }
+
+
+/*
+
+### Nome e Cognome
+    - Chiediamo all'utente tramite un prompt di inserire il suo nome, poi salviamo il dato in una variabile;
+    - Chiediamo all'utente tramite un prompt di inserire il suo cognome, poi salviamo il dato in una variabile;
+
+    - Controlliamo che siano valori validi (non null), con almeno 3 caratteri e mostriamo tramite alert errori specifici;
+    - Se abbiamo mostrato un errore ricarichiamo la pagina usando `window.location.reload()`;
+
+    - Prendiamo il nome inserito e salviamo una nuova variabile trasformando la prima lettera in maiuscola, tip:
+    ```js
+    const firstName = '...';
+    const firstLetter; // ...
+    const nameWithoutFirstLetter; // ...
+    const firstNaneWithCapitalize; // ...
+    ```
+    - Prendiamo il cognome inserito e salviamo una nuova variabile trasformando la prima lettera in maiuscola;
+
+    - Mostriamo tramite alert "Ciao + [Nome] + [Cognome]";
+
+### Quizzone - Qui usiamo lo switch dove possibile
+    - Creiamo una variabile `let score = 0;`;
+    - Proponiamo all'utente, tramite prompt, 4 domande di cultura generale e raccogliamo le sue risposte in altrettante variabili;
+    - Per ogni risposta corretta aggiungiamo al `score` 3 punti, per ogni errata togliamo 1 punto;
+    - Alla fine delle 4 domande mostriamo il pungeggio complessivo;
+    - Poi se le hai indovinate tutte mostra un alert "Sei il nuovo campione!"
+
+*/
