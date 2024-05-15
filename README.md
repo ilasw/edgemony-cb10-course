@@ -1,6 +1,11 @@
 # Edgemony CB10 - Exercises
 
-Esercizi 14/05
+## Mercoledì 15/05
+- AirBnB best practices: https://github.com/airbnb/javascript
+
+----
+
+## Esercizi 14/05
 - definiamo variabile che contiene una stringa
     - Usiamo i doppi apici e salviamo la stringa: `Ciao Mondo!`
     - Usiamo i singoli apici e salviamo la stringa:` Mio zio viene dalla città di l'Aquila`
