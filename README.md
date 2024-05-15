@@ -7,6 +7,7 @@
 ### Esercizi
 
 #### Nome e Cognome
+
     - Chiediamo all'utente tramite un prompt di inserire il suo nome, poi salviamo il dato in una variabile;
     - Chiediamo all'utente tramite un prompt di inserire il suo cognome, poi salviamo il dato in una variabile;
 
@@ -24,7 +25,9 @@
 
     - Mostriamo tramite alert "Ciao + [Nome] + [Cognome]";
 
+
 #### Quizzone - Qui usiamo lo switch dove possibile
+
     - Creiamo una variabile `let score = 0;`;
     - Proponiamo all'utente, tramite prompt, 4 domande di cultura generale e raccogliamo le sue risposte in altrettante variabili;
     - Per ogni risposta corretta aggiungiamo al `score` 3 punti, per ogni errata togliamo 1 punto;
@@ -32,7 +35,6 @@
     - Poi se le hai indovinate tutte mostra un alert "Sei il nuovo campione!"
 
 ----
-
 
 ## Esercizi 14/05
 
