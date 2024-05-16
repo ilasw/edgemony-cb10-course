@@ -1,5 +1,14 @@
 # Edgemony CB10 - Exercises
 
+## Giovedì 16/05
+- Voca.js: https://vocajs.pages.dev/
+
+
+### Esercizi
+
+----
+
+
 ## Mercoledì 15/05
 - AirBnB best practices: https://github.com/airbnb/javascript
 
