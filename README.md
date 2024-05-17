@@ -1,5 +1,51 @@
 # Edgemony CB10 - Exercises
 
+## Venerdì 17/05
+- Voca.js: https://vocajs.pages.dev/
+
+
+### Esercizi
+
+Trova il positivo:
+dato un array di numeri [-1, -2, -10, 2, 5];
+
+scriviamo due cicli for che soddisfano ognuno una condizione:
+1. Stampare in console solo i numeri > 0
+2. Deve interrompere al primo numero > 0 l'esecuzione del for (break)
+
+----
+
+Palindromi:
+abbiamo visto come si trova una parola palindroma, ma non l'abbiamo fatto in modo efficente.
+Quello che dovremo fare invece è: prendere una parola dall'utente tramite prompt, scomporla in array
+ed usare un for per poter controllare se è palindroma.
+
+nel caso in cui non troviamo corrispondenza usiamo dal for e stampiamo in console.log un messaggio.
+se nell'ultimo carattere della parola non abbiamo riscontrato errori stampiamo un console.log con "Successo! è un palindromo!"
+
+
+tips:
+ogni carattere è uguale al suo elemento specchio nella parola
+elemento ad indice 0 === elemento ad indice fine meno -1
+elemento ad indice 1 === elemento ad indice fine meno -2
+elemento ad indice i === elemento ad indice fine meno (i * -1) -1 /// length - i - 1 
+
+```js
+for(){
+
+    if( elemento corrisponde a...){}
+
+    isLast = index === length -1;
+
+    if(elemento è l'ultimo dell'array...){
+
+    }
+}
+```
+
+
+# Edgemony CB10 - Exercises
+
 ## Giovedì 16/05
 - Voca.js: https://vocajs.pages.dev/
 
