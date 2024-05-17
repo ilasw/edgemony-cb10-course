@@ -6,7 +6,7 @@
 
 ### Esercizi
 
-Trova il positivo:
+#### Trova il positivo:
 dato un array di numeri [-1, -2, -10, 2, 5];
 
 scriviamo due cicli for che soddisfano ognuno una condizione:
@@ -15,7 +15,7 @@ scriviamo due cicli for che soddisfano ognuno una condizione:
 
 ----
 
-Palindromi:
+#### Palindromi:
 abbiamo visto come si trova una parola palindroma, ma non l'abbiamo fatto in modo efficente.
 Quello che dovremo fare invece è: prendere una parola dall'utente tramite prompt, scomporla in array
 ed usare un for per poter controllare se è palindroma.
