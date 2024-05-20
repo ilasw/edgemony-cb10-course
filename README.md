@@ -1,5 +1,66 @@
 # Edgemony CB10 - Exercises
 
+## Lunedì 20/05
+
+### Esercizi
+
+
+Dato questo object:
+
+```js
+const coder = {
+    firstName: 'Luca', // coppia chiave - valore : "firstName" - "Luca"
+    lastName: 'Pagliaro',
+    age: 29,
+    skills: ['JavaScript', 'HTML', 'CSS'],
+    address: {
+        city: 'Catania',
+        zipCode: '95100'
+    }
+};
+```
+
+vorrei scrivere del codice che possa:
+
+- stampare un console.log per ogni skill presente in coder.skills 
+    ```
+    // output aspettato:
+    'JavaScript'
+    'HTML'
+    'CSS'
+    ```
+
+- salvare dentro "coder.address" due nuove proprietà da chidere all'utente tramite prompt: "country" e "street".
+  Eseguiamo poi un console.log per controllare tutto sia OK.
+
+- Stampiamo in console tutte le chiavi presenti dentro il mio oggetto.
+    ```
+    // output aspettato:
+    "firstName"
+    "lastName"
+    "age"
+    "skills"
+    "address"
+    ```
+
+- Per ogni proprietà presente dentro il nostro object, controlliamo la chiave. Se la prima lettera è una vocale stampiamo in console la chiave ed il suo valore.
+    ```
+    // output aspettato:
+    age: 29
+    address: [object Object]
+    ```
+
+- Chiediamo all'utente, tramite prompt, cosa vuole salvare dentro il nostro object e (tramite un altro prompt) quale valore voglia inserire. Salviamo quindi una nuova proprietà con chiave/valore presi dai prompt.
+
+    ```js
+    const key = prompt('...');
+    const value = prompt('...');
+
+    coder[...] = ...;
+    ```
+
+----
+
 ## Venerdì 17/05
 - Voca.js: https://vocajs.pages.dev/
 
