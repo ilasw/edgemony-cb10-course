@@ -3,7 +3,6 @@
 ## Venerdì 17/05
 - Voca.js: https://vocajs.pages.dev/
 
-
 ### Esercizi
 
 #### Trova il positivo:
