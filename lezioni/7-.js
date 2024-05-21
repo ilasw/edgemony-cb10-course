@@ -281,3 +281,91 @@ function sommaRicorsiva(count){
 }
 
 console.log(sommaRicorsiva(10));
+
+
+
+/*
+
+- Scriviamo ed eseguamo una funzione che permetta di fare rapidamente un console.clear()
+
+```js
+
+function clear(){
+    ...
+}
+
+clear() // fa stessa cosa di console.clear()
+
+```
+
+- Scriviamo ed eseguamo una funzione che possa data una stringa tornarne una nuova con la prima lettera maiuscola, il resto minuscolo.
+
+```js
+
+function capitalize(string){
+    return // ...;
+}
+
+// output 
+capitalize('ciao');     // Ciao
+capitalize('mondo');    // Mondo
+capitalize('Mondo');    // Mondo
+capitalize('TEST');     // Test
+
+```
+
+- Scrivere una function che dati due parametri in ingresso controlla se siano numeri e torna il numero più piccolo:
+
+```js
+
+function min(a, b){
+
+    return //...
+}
+
+console.log(min(1, 3));     // 1;
+console.log(min(5, -3));    // -3;
+console.log(min(100, 20));  // 20;
+
+```
+
+- Scriviamo una function potenza che accetta due parametri: base ed esponente. Facciamo tornare alla funzione il numero "base" moltiplicato per se stesso tante volte quante indicate dall'esponente
+
+```js
+
+function potenza(base, esponente){
+
+    for(let i=0; i < espontente, i++){
+        // ...
+    }
+
+}
+
+// output:
+potenza(4,2)    // 16
+potenza(5,3)    // 125
+potenza(1, 100) // 1
+
+// bonus point prevediamo anche l'elevamento a potenza con esponente 0.
+
+
+```
+
+- Bonus point (opzionale):
+il fattoriale (n!) in matematica è il prodotto di un numero intero per tutti i numeri precedenti positivi (!==0).
+esempio: 5! (fattoriale di 5) è 5 * 4 * 3 * 2 * 1 = 120
+
+scriviamo una funzione ricorsia che calcola il fattoriale di un numero passato tramite parametro e lo stampa in console.
+
+```js
+
+function factorial(n){
+
+}
+
+factorial(5) // 120
+factorial(4) // 24
+
+```
+
+*/
