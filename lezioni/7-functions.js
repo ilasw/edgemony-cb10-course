@@ -273,8 +273,8 @@ function countdown(start){
 // countdown(10); // 10 -> 9 -> ... -> 2 -> 1 -> 🎉
 
 function sommaRicorsiva(count){
-    if(count === 0){
-        return 0;
+    if(count === 1){
+        return 1;
     }
 
     return sommaRicorsiva(count-1) + count;
