@@ -28,6 +28,7 @@ indicazioni('su', 'su', 'sinistra');
 
 scrivere una function partendo da quella di prima, per ogni direzione salvare dentro un oggetto il numero di indicazioni uguali.
 
+```js
 
 function contaIndicazioni(...directions){
     const directions = { su: 0, giu: 0, ... };
@@ -37,6 +38,7 @@ function contaIndicazioni(...directions){
     return directions;
 }
 
+```
 
 #### Conta il click
 
