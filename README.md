@@ -1,5 +1,61 @@
 # Edgemony CB10 - Exercises
 
+## Giovedì 23/05
+
+### Esercizi
+
+
+#### Selettori
+
+- Usando il querySelector prendiamo l'elemento con id `heading` ed eseguiamo un console.log
+
+```
+// output <h1>...</h1>
+```
+
+- Per ogni elemento `button` presente in pagina stampiamo in console il suo testo.
+
+```js
+
+const buttonEls = document.querySelectorAll('button');
+
+for(...){
+    console.log(...);
+}
+
+// output 
+// cancel
+// Click me!
+```
+
+#### Contatore
+
+- salviamo due variabili con dentro i riferimenti ai due button della pagina `resetBtn` e `clickBtn`;
+- inseriamo una function dentro l'evento `onclick` di `clickBtn` e per ogni click:
+- leggiamo il valore attuale del proprio innerHTML
+    - convertiamo il valore a numero, se NaN portiamolo a 0;
+    - incrementiamo il valore precedente e salviamolo in innerHTML;
+
+- inseriamo una function dentro l'evento `onclick` di `resetBtn` e per ogni click impostiamo innerHTML di `clickBtn` a "0";
+
+```js
+
+const resetBtn = document.querySelector(..);
+const clickBtn = document.querySelector(..);
+
+resetBtn.onclick = function(){
+    // portare clickBtn.innerHTML a "0"
+}
+
+clickBtn.onclick = function(){
+    // se stringa portare clickBtn.innerHTML a "0"
+    // se numero incrementare e salvare il valore
+}
+
+
+```
+
+
 ## Mercoledì 22/05
 
 ### Esercizi
