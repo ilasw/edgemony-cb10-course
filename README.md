@@ -8,12 +8,12 @@
 
 Aggiungiamo al nostro HTML tramite JS due nuovi elementi: un h1 ed un paragrafo.
 Usiamo il metodo document.createElement per creare i vari elementi 
-Per inserirli nella pagina usiamo rispettivamente: insertAdjacentElement() per h1, e append() per il <p>.
+Per inserirli nella pagina usiamo rispettivamente: insertAdjacentElement() per h1, e append() per il `<p>`.
 
 
 #### Button contatore dinamico:
 
-- Aggiungiamo nella nostra pagina, dopo il paragrafo, un <button>0</button>.
+- Aggiungiamo nella nostra pagina, dopo il paragrafo, un `<button>0</button>`.
 - Al button associamo un evento `onmouseenter` che cambierà lo style del button (sperimentiamo un po');
 - Al button associamo un altro evento `onclick` che al click aumenta di uno il numero inserito nel proprio innerHTML;
 
