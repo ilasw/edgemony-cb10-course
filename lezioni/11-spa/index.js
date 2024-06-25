@@ -17,22 +17,31 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-function renderPage(appEl) {
+async function renderPage(appEl) {
   // appEl.innerHTML = 'Ciao Mondo!';
 
   // andare a creare una function per ogni elemento della pagina;
   // ogni function mi torna dell'HTML, e una volta messi insieme li stampo.
 
   const header = getHeaderHTML();
-  const main = getMainHTML();
+  const main = await getMainHTML();
   const footer = getFooterHTML();
 
+  // creiamo una stringa che contiene HTML
   const html = header + main + footer;
-
+  // la inseriemo dentro appEl
   appEl.innerHTML = html;
 
   // const asideEl = document.querySelector('aside');
-  // createElement('div', {className: 'prova-class', innerHTML: 'ciao mondo', 'data-count': 0}, asideEl)
+  // createElement(
+  //   "div",
+  //   {
+  //     className: "prova-class",
+  //     innerHTML: "ciao mondo",
+  //     "data-count": 0,
+  //   },
+  //   asideEl
+  // );
 }
 
 // function per creare elementi

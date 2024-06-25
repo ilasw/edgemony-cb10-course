@@ -67,7 +67,7 @@ h6 {
    APP STYLE 
 */
 
-#app {
+#root {
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
   grid-template-rows: auto 1fr auto;
