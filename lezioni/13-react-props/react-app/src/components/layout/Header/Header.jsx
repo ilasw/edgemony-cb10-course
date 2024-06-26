@@ -23,17 +23,33 @@ function Header(props) {
 }
 
 function Menu() {
+  const items = [
+    { label: "About us" },
+    { label: "Blog", href: "https://google.it" },
+    { label: "Shop" },
+  ];
+
   return (
     <nav className="nav">
       <ul className="list">
-        <li className="item">
-          <a href="#">About us</a>
-        </li>
-        <li className="item">
-          <a href="#">Blog</a>
-        </li>
+        {items.map((item, index, array) => (
+          <MenuItem
+            key={`${item.label}-${index}`}
+            label={item.label}
+            href={item.href}
+          />
+        ))}
       </ul>
     </nav>
+  );
+}
+
+function MenuItem(props) {
+  const { label, href = "#" } = props;
+  return (
+    <li className="item">
+      <a href={href}>{label}</a>
+    </li>
   );
 }
 
