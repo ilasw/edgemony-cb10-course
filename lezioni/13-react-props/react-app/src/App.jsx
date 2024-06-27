@@ -3,6 +3,7 @@ import { Header } from "./components/layout/Header/Header";
 import "./styles/layout.css";
 
 import posts from "./data.json";
+import Footer from "./components/layout/Footer/Footer";
 
 function App() {
   console.log(posts);
@@ -11,12 +12,8 @@ function App() {
     <>
       {/* Content projection - proiezione del contenuto */}
       <Header brand={{ name: "Edgemony" }} className="header" />
-
-      <div className="container">
-        <form style={{ marginTop: "100px" }}>
-          <Button type="button">Sono un button</Button>
-        </form>
-      </div>
+      <main></main>
+      <Footer />
       {/* <Header /> */}
     </>
   );
