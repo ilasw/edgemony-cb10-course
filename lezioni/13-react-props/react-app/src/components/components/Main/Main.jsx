@@ -1,11 +1,17 @@
+import { useState } from "react";
 import "./Main.css";
+import { Button } from "../../atoms/Button/Button";
 
 export const Main = (props) => {
-  const { posts, isModalOpen = false } = props;
+  const { posts } = props;
+
+  const [isModalOpen, setModalOpen] = useState(false);
 
   return (
     <main>
+      <Button onClick={() => setModalOpen(!isModalOpen)}>Mostra saluto</Button>
       {isModalOpen && <div className="modal">Ciao</div>}
+
       <div class="container">
         <div class="main-grid">
           <aside onClick={() => console.log()}></aside>
