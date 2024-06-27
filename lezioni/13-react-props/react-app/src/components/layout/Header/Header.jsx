@@ -1,5 +1,7 @@
 import "./Header.css";
 
+import viteLogo from "@/assets/vite.svg";
+
 // ogni componente ha come primo parametro un oggetto "props"
 // se quando usato viene messo del contenuto dentro il mio componente, questo sarà disponibile dentro props.children
 function Header(props) {
@@ -13,7 +15,11 @@ function Header(props) {
     <header {...attrs}>
       <div className="container">
         <div className="wrapper">
-          <div className="logo">Logo - {brand.name}</div>
+          <div className="logo">
+            <img style={{ display: "inline-block" }} src="/react.svg" />
+            <img style={{ display: "inline-block" }} src={viteLogo} />-{" "}
+            {brand.name}
+          </div>
           <Menu />
           {children}
         </div>

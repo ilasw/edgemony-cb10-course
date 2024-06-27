@@ -1,19 +1,22 @@
 import { Button } from "./components/atoms/Button/Button";
 import { Header } from "./components/layout/Header/Header";
+import Footer from "./components/layout/Footer/Footer";
+import Main from "./components/components/Main/Main";
+
+import posts from "@/assets/data.json";
 import "./styles/layout.css";
 
-import posts from "./data.json";
-import Footer from "./components/layout/Footer/Footer";
-
 function App() {
-  console.log(posts);
-
   return (
     <>
       {/* Content projection - proiezione del contenuto */}
       <Header brand={{ name: "Edgemony" }} className="header" />
-      <main></main>
-      <Footer />
+
+      <Main posts={posts} />
+
+      <Footer>
+        <button>Ciao</button>
+      </Footer>
       {/* <Header /> */}
     </>
   );

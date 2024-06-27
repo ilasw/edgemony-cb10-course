@@ -70,20 +70,3 @@ ul.menu > li > a {
   text-decoration: none;
   margin-bottom: -1rem;
 }
-
-.main-grid {
-  display: grid;
-  grid-template-columns: max(30%, 100px) 1fr;
-  gap: 1rem;
-}
-
-div[role="list"] {
-  display: flex;
-  gap: 1rem;
-  flex-flow: column nowrap;
-}
-
-div[role="list"] > article:not(:last-of-type) {
-  border-bottom: 1px solid #a4a4a4;
-  padding-bottom: 1rem;
-}
